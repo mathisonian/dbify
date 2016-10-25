@@ -1,6 +1,6 @@
 {
   "name": "dbify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browserify transform to inline the results of SQL queries as JSON",
   "main": "index.js",
   "scripts": {
