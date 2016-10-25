@@ -1,0 +1,8 @@
+{
+  "dbify": {
+    "client": "sqlite",
+    "connection": {
+      "filename": "db.db"
+    }
+  }
+}

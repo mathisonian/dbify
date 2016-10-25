@@ -1,0 +1,35 @@
+{
+  "name": "dbify",
+  "version": "0.0.1",
+  "description": "Browserify transform to inline the results of SQL queries as JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard index.js test/test.js && mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathisonian/dbify.git"
+  },
+  "keywords": [
+    "browserify",
+    "transform",
+    "database",
+    "sql"
+  ],
+  "author": "Matthew Conlen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathisonian/dbify/issues"
+  },
+  "homepage": "https://github.com/mathisonian/dbify#readme",
+  "dependencies": {
+    "browserify-transform-tools": "^1.6.0",
+    "knex": "^0.12.6"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.1.2",
+    "semistandard": "^9.1.0",
+    "sqlite3": "^3.1.7"
+  }
+}
