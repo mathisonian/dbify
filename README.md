@@ -32,6 +32,14 @@ $ npm install oracle
 $ npm install mssql
 ```
 
+and use it with browserify like
+
+```
+$ browserify -t dbify input.js -o output.js
+```
+
+see https://github.com/substack/browserify-handbook#transforms for more info on browserify transforms.
+
 ## Configuration
 
 Under the hood this project relies on [knex](http://knexjs.org/). To see full configuration documentation see http://knexjs.org/. In your `package.json` file add a `dbify` field:
